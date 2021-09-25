@@ -15,6 +15,14 @@
 		0DF379CD26FFD03000FAEC9A /* PruebaCeibaiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DF379CB26FFD03000FAEC9A /* PruebaCeibaiOS.xcdatamodeld */; };
 		0DF379D826FFD03000FAEC9A /* PruebaCeibaiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF379D726FFD03000FAEC9A /* PruebaCeibaiOSTests.swift */; };
 		0DF379E326FFD03000FAEC9A /* PruebaCeibaiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF379E226FFD03000FAEC9A /* PruebaCeibaiOSUITests.swift */; };
+		0DF379F826FFD0E400FAEC9A /* BaseRepositoryRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF379F726FFD0E400FAEC9A /* BaseRepositoryRemote.swift */; };
+		0DF379FA26FFD13200FAEC9A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF379F926FFD13200FAEC9A /* Constant.swift */; };
+		0DF379FC26FFD14B00FAEC9A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF379FB26FFD14B00FAEC9A /* NetworkError.swift */; };
+		0DF37A0026FFD19A00FAEC9A /* UserRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF379FF26FFD19A00FAEC9A /* UserRepositoryProtocol.swift */; };
+		0DF37A0226FFD1B600FAEC9A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF37A0126FFD1B600FAEC9A /* User.swift */; };
+		0DF37A0426FFD1D800FAEC9A /* UserRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF37A0326FFD1D800FAEC9A /* UserRemoteRepository.swift */; };
+		0DF37A0726FFD24D00FAEC9A /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF37A0626FFD24D00FAEC9A /* UserViewModel.swift */; };
+		0DF37A0926FFD2D700FAEC9A /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF37A0826FFD2D700FAEC9A /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		0DF379DE26FFD03000FAEC9A /* PruebaCeibaiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaCeibaiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF379E226FFD03000FAEC9A /* PruebaCeibaiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaCeibaiOSUITests.swift; sourceTree = "<group>"; };
 		0DF379E426FFD03000FAEC9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DF379F726FFD0E400FAEC9A /* BaseRepositoryRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRepositoryRemote.swift; sourceTree = "<group>"; };
+		0DF379F926FFD13200FAEC9A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		0DF379FB26FFD14B00FAEC9A /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		0DF379FF26FFD19A00FAEC9A /* UserRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryProtocol.swift; sourceTree = "<group>"; };
+		0DF37A0126FFD1B600FAEC9A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0DF37A0326FFD1D800FAEC9A /* UserRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRemoteRepository.swift; sourceTree = "<group>"; };
+		0DF37A0626FFD24D00FAEC9A /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		0DF37A0826FFD2D700FAEC9A /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +115,12 @@
 		0DF379BF26FFD02E00FAEC9A /* PruebaCeibaiOS */ = {
 			isa = PBXGroup;
 			children = (
-				0DF379C026FFD02E00FAEC9A /* PruebaCeibaiOSApp.swift */,
-				0DF379C226FFD02E00FAEC9A /* ContentView.swift */,
+				0DF37A0526FFD20B00FAEC9A /* App */,
+				0DF379F426FFD0A100FAEC9A /* Constant */,
+				0DF379F326FFD09300FAEC9A /* Repository */,
+				0DF379F226FFD08600FAEC9A /* View */,
+				0DF379F126FFD07F00FAEC9A /* ViewModel */,
+				0DF379F026FFD07400FAEC9A /* Model */,
 				0DF379C426FFD03000FAEC9A /* Assets.xcassets */,
 				0DF379C926FFD03000FAEC9A /* Persistence.swift */,
 				0DF379CE26FFD03000FAEC9A /* Info.plist */,
@@ -134,6 +154,90 @@
 				0DF379E426FFD03000FAEC9A /* Info.plist */,
 			);
 			path = PruebaCeibaiOSUITests;
+			sourceTree = "<group>";
+		};
+		0DF379F026FFD07400FAEC9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DF37A0126FFD1B600FAEC9A /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0DF379F126FFD07F00FAEC9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0DF37A0626FFD24D00FAEC9A /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0DF379F226FFD08600FAEC9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0DF379C226FFD02E00FAEC9A /* ContentView.swift */,
+				0DF37A0826FFD2D700FAEC9A /* UserView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0DF379F326FFD09300FAEC9A /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				0DF379F626FFD0CD00FAEC9A /* Base */,
+				0DF379F526FFD0C300FAEC9A /* User */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		0DF379F426FFD0A100FAEC9A /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				0DF379F926FFD13200FAEC9A /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		0DF379F526FFD0C300FAEC9A /* User */ = {
+			isa = PBXGroup;
+			children = (
+				0DF379FE26FFD17A00FAEC9A /* Remote */,
+				0DF379FD26FFD16D00FAEC9A /* Protocol */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		0DF379F626FFD0CD00FAEC9A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0DF379F726FFD0E400FAEC9A /* BaseRepositoryRemote.swift */,
+				0DF379FB26FFD14B00FAEC9A /* NetworkError.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0DF379FD26FFD16D00FAEC9A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0DF379FF26FFD19A00FAEC9A /* UserRepositoryProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		0DF379FE26FFD17A00FAEC9A /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				0DF37A0326FFD1D800FAEC9A /* UserRemoteRepository.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		0DF37A0526FFD20B00FAEC9A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0DF379C026FFD02E00FAEC9A /* PruebaCeibaiOSApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +369,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DF37A0026FFD19A00FAEC9A /* UserRepositoryProtocol.swift in Sources */,
 				0DF379CA26FFD03000FAEC9A /* Persistence.swift in Sources */,
+				0DF379FC26FFD14B00FAEC9A /* NetworkError.swift in Sources */,
+				0DF37A0726FFD24D00FAEC9A /* UserViewModel.swift in Sources */,
 				0DF379CD26FFD03000FAEC9A /* PruebaCeibaiOS.xcdatamodeld in Sources */,
 				0DF379C326FFD02E00FAEC9A /* ContentView.swift in Sources */,
+				0DF37A0226FFD1B600FAEC9A /* User.swift in Sources */,
+				0DF37A0926FFD2D700FAEC9A /* UserView.swift in Sources */,
+				0DF37A0426FFD1D800FAEC9A /* UserRemoteRepository.swift in Sources */,
 				0DF379C126FFD02E00FAEC9A /* PruebaCeibaiOSApp.swift in Sources */,
+				0DF379F826FFD0E400FAEC9A /* BaseRepositoryRemote.swift in Sources */,
+				0DF379FA26FFD13200FAEC9A /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
