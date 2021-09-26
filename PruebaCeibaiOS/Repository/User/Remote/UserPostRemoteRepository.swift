@@ -12,7 +12,14 @@ class UserPostRemoteRepository: BaseRepositoryRemote, UserPostRepositoryProtocol
     
     func getUserPostList(completion: @escaping (Result<[PostItem], NetworkError>) -> Void) {
         sendRequest(endPoint, of: [PostItem].self) { result in
-            
+            switch result {
+            case .success(let posts):
+                completion(.success(posts))
+                break
+            case.failure(let error):
+                completion(.failure(error))
+                break
+            }
         }
     }
 }

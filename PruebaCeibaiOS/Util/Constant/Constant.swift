@@ -20,4 +20,6 @@ struct ConstantView {
     static let SEE_PUBLICATIONS = "VER PUBLICACIONES"
     static let TITLE_HEADER = "Prueba de Ingreso"
     static let LIST_EMPTY = "Lista vacia"
+    static let TITLE_POST = "Titulo"
+    static let DESCRIPTION_POST = "Descripción"
 }

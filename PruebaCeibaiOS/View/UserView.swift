@@ -9,7 +9,7 @@ import SwiftUI
 
 struct UserView: View {
     
-    @ObservedObject var userViewModel = UserViewModel(repository: UserRemoteRepository())
+    @ObservedObject var userViewModel : UserViewModel
     @State private var searchText: String = ""
 
     var body: some View {

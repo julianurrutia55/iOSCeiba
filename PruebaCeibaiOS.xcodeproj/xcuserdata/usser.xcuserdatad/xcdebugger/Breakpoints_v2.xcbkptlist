@@ -3,4 +3,118 @@
    uuid = "16AEF707-E648-4F64-843F-3D4A9C2D42CD"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80BBF3B3-0B4C-40C6-AC4D-66895E43812E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PruebaCeibaiOS/Repository/User/Remote/UserPostRemoteRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "getUserPostList(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "80BBF3B3-0B4C-40C6-AC4D-66895E43812E - ef0a627b17a6818c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PruebaCeibaiOS.UserPostRemoteRepository.getUserPostList(completion: (Swift.Result&lt;Swift.Array&lt;PruebaCeibaiOS.PostItem&gt;, PruebaCeibaiOS.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PruebaCeibaiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usser/Documents/swfitUI/PruebaCeibaiOS/PruebaCeibaiOS/Repository/User/Remote/UserPostRemoteRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "80BBF3B3-0B4C-40C6-AC4D-66895E43812E - aaa007ae1584402"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;PruebaCeibaiOS.PostItem&gt;, PruebaCeibaiOS.NetworkError&gt;) -&gt; () in PruebaCeibaiOS.UserPostRemoteRepository.getUserPostList(completion: (Swift.Result&lt;Swift.Array&lt;PruebaCeibaiOS.PostItem&gt;, PruebaCeibaiOS.NetworkError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "PruebaCeibaiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usser/Documents/swfitUI/PruebaCeibaiOS/PruebaCeibaiOS/Repository/User/Remote/UserPostRemoteRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "171">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2584372E-B76B-446A-B0EC-66ADCBE2525A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PruebaCeibaiOS/ViewModel/UserPostViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "getUserPostData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2584372E-B76B-446A-B0EC-66ADCBE2525A - 7893e67dc4f52bfa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PruebaCeibaiOS.UserPostViewModel.getUserPostData() -&gt; ()"
+                  moduleName = "PruebaCeibaiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usser/Documents/swfitUI/PruebaCeibaiOS/PruebaCeibaiOS/ViewModel/UserPostViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "2584372E-B76B-446A-B0EC-66ADCBE2525A - a54c78853e4e3bde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;PruebaCeibaiOS.PostItem&gt;, PruebaCeibaiOS.NetworkError&gt;) -&gt; () in PruebaCeibaiOS.UserPostViewModel.getUserPostData() -&gt; ()"
+                  moduleName = "PruebaCeibaiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usser/Documents/swfitUI/PruebaCeibaiOS/PruebaCeibaiOS/ViewModel/UserPostViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "190">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F056E796-5BBB-444C-8C5F-1322EB599D10"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PruebaCeibaiOS/View/UserPostView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
