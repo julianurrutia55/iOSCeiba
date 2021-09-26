@@ -13,6 +13,7 @@
 		0D01C05C26FFF57C0024443E /* UserPostRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D01C05B26FFF57C0024443E /* UserPostRemoteRepository.swift */; };
 		0D01C05E26FFF5AC0024443E /* UserPostRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D01C05D26FFF5AC0024443E /* UserPostRepositoryProtocol.swift */; };
 		0D01C06026FFF5FE0024443E /* PostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D01C05F26FFF5FE0024443E /* PostItem.swift */; };
+		0D01C06427010D890024443E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D01C06327010D890024443E /* AppDelegate.swift */; };
 		0DF379C126FFD02E00FAEC9A /* PruebaCeibaiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF379C026FFD02E00FAEC9A /* PruebaCeibaiOSApp.swift */; };
 		0DF379C526FFD03000FAEC9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DF379C426FFD03000FAEC9A /* Assets.xcassets */; };
 		0DF379C826FFD03000FAEC9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DF379C726FFD03000FAEC9A /* Preview Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		0D01C05B26FFF57C0024443E /* UserPostRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostRemoteRepository.swift; sourceTree = "<group>"; };
 		0D01C05D26FFF5AC0024443E /* UserPostRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostRepositoryProtocol.swift; sourceTree = "<group>"; };
 		0D01C05F26FFF5FE0024443E /* PostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItem.swift; sourceTree = "<group>"; };
+		0D01C06327010D890024443E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DF379BD26FFD02E00FAEC9A /* PruebaCeibaiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaCeibaiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF379C026FFD02E00FAEC9A /* PruebaCeibaiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaCeibaiOSApp.swift; sourceTree = "<group>"; };
 		0DF379C426FFD03000FAEC9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,6 +113,86 @@
 				0DF379C426FFD03000FAEC9A /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		0D01C06527010F1E0024443E /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				0DF37A0326FFD1D800FAEC9A /* UserRemoteRepository.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		0D01C06627010F2A0024443E /* UserPost */ = {
+			isa = PBXGroup;
+			children = (
+				0D01C05B26FFF57C0024443E /* UserPostRemoteRepository.swift */,
+			);
+			path = UserPost;
+			sourceTree = "<group>";
+		};
+		0D01C06727010F470024443E /* User */ = {
+			isa = PBXGroup;
+			children = (
+				0DF379FF26FFD19A00FAEC9A /* UserRepositoryProtocol.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		0D01C06827010F590024443E /* UserPost */ = {
+			isa = PBXGroup;
+			children = (
+				0D01C05D26FFF5AC0024443E /* UserPostRepositoryProtocol.swift */,
+			);
+			path = UserPost;
+			sourceTree = "<group>";
+		};
+		0D01C06927010F870024443E /* User */ = {
+			isa = PBXGroup;
+			children = (
+				0DF37A0826FFD2D700FAEC9A /* UserView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		0D01C06A27010F8E0024443E /* UserPost */ = {
+			isa = PBXGroup;
+			children = (
+				0D01C05726FFF3E50024443E /* UserPostView.swift */,
+			);
+			path = UserPost;
+			sourceTree = "<group>";
+		};
+		0D01C06B27010F9B0024443E /* User */ = {
+			isa = PBXGroup;
+			children = (
+				0DF37A0626FFD24D00FAEC9A /* UserViewModel.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		0D01C06C27010FA10024443E /* UserPost */ = {
+			isa = PBXGroup;
+			children = (
+				0D01C05926FFF5530024443E /* UserPostViewModel.swift */,
+			);
+			path = UserPost;
+			sourceTree = "<group>";
+		};
+		0D01C06D27010FB10024443E /* User */ = {
+			isa = PBXGroup;
+			children = (
+				0DF37A0126FFD1B600FAEC9A /* User.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		0D01C06E27010FB80024443E /* UserPost */ = {
+			isa = PBXGroup;
+			children = (
+				0D01C05F26FFF5FE0024443E /* PostItem.swift */,
+			);
+			path = UserPost;
 			sourceTree = "<group>";
 		};
 		0DF379B426FFD02E00FAEC9A = {
@@ -179,8 +261,8 @@
 		0DF379F026FFD07400FAEC9A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0DF37A0126FFD1B600FAEC9A /* User.swift */,
-				0D01C05F26FFF5FE0024443E /* PostItem.swift */,
+				0D01C06E27010FB80024443E /* UserPost */,
+				0D01C06D27010FB10024443E /* User */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -188,8 +270,8 @@
 		0DF379F126FFD07F00FAEC9A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				0DF37A0626FFD24D00FAEC9A /* UserViewModel.swift */,
-				0D01C05926FFF5530024443E /* UserPostViewModel.swift */,
+				0D01C06C27010FA10024443E /* UserPost */,
+				0D01C06B27010F9B0024443E /* User */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -197,8 +279,8 @@
 		0DF379F226FFD08600FAEC9A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0DF37A0826FFD2D700FAEC9A /* UserView.swift */,
-				0D01C05726FFF3E50024443E /* UserPostView.swift */,
+				0D01C06A27010F8E0024443E /* UserPost */,
+				0D01C06927010F870024443E /* User */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,8 +323,8 @@
 		0DF379FD26FFD16D00FAEC9A /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				0DF379FF26FFD19A00FAEC9A /* UserRepositoryProtocol.swift */,
-				0D01C05D26FFF5AC0024443E /* UserPostRepositoryProtocol.swift */,
+				0D01C06827010F590024443E /* UserPost */,
+				0D01C06727010F470024443E /* User */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -250,8 +332,8 @@
 		0DF379FE26FFD17A00FAEC9A /* Remote */ = {
 			isa = PBXGroup;
 			children = (
-				0DF37A0326FFD1D800FAEC9A /* UserRemoteRepository.swift */,
-				0D01C05B26FFF57C0024443E /* UserPostRemoteRepository.swift */,
+				0D01C06627010F2A0024443E /* UserPost */,
+				0D01C06527010F1E0024443E /* Users */,
 			);
 			path = Remote;
 			sourceTree = "<group>";
@@ -260,6 +342,7 @@
 			isa = PBXGroup;
 			children = (
 				0DF379C026FFD02E00FAEC9A /* PruebaCeibaiOSApp.swift */,
+				0D01C06327010D890024443E /* AppDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -413,6 +496,7 @@
 			files = (
 				0D01C06026FFF5FE0024443E /* PostItem.swift in Sources */,
 				0DF37A0026FFD19A00FAEC9A /* UserRepositoryProtocol.swift in Sources */,
+				0D01C06427010D890024443E /* AppDelegate.swift in Sources */,
 				0DF379CA26FFD03000FAEC9A /* Persistence.swift in Sources */,
 				0DF379FC26FFD14B00FAEC9A /* NetworkError.swift in Sources */,
 				0DF37A0726FFD24D00FAEC9A /* UserViewModel.swift in Sources */,
