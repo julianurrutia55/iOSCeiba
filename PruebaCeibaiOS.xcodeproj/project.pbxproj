@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D01C05626FFE1A30024443E /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D01C05526FFE1A30024443E /* Color+Extensions.swift */; };
+		0D01C05826FFF3E50024443E /* UserPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D01C05726FFF3E50024443E /* UserPostView.swift */; };
+		0D01C05A26FFF5530024443E /* UserPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D01C05926FFF5530024443E /* UserPostViewModel.swift */; };
+		0D01C05C26FFF57C0024443E /* UserPostRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D01C05B26FFF57C0024443E /* UserPostRemoteRepository.swift */; };
+		0D01C05E26FFF5AC0024443E /* UserPostRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D01C05D26FFF5AC0024443E /* UserPostRepositoryProtocol.swift */; };
+		0D01C06026FFF5FE0024443E /* PostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D01C05F26FFF5FE0024443E /* PostItem.swift */; };
 		0DF379C126FFD02E00FAEC9A /* PruebaCeibaiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF379C026FFD02E00FAEC9A /* PruebaCeibaiOSApp.swift */; };
-		0DF379C326FFD02E00FAEC9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF379C226FFD02E00FAEC9A /* ContentView.swift */; };
 		0DF379C526FFD03000FAEC9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DF379C426FFD03000FAEC9A /* Assets.xcassets */; };
 		0DF379C826FFD03000FAEC9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DF379C726FFD03000FAEC9A /* Preview Assets.xcassets */; };
 		0DF379CA26FFD03000FAEC9A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF379C926FFD03000FAEC9A /* Persistence.swift */; };
@@ -23,6 +28,7 @@
 		0DF37A0426FFD1D800FAEC9A /* UserRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF37A0326FFD1D800FAEC9A /* UserRemoteRepository.swift */; };
 		0DF37A0726FFD24D00FAEC9A /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF37A0626FFD24D00FAEC9A /* UserViewModel.swift */; };
 		0DF37A0926FFD2D700FAEC9A /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF37A0826FFD2D700FAEC9A /* UserView.swift */; };
+		0DF37A0D26FFD8A800FAEC9A /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF37A0C26FFD8A800FAEC9A /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D01C05526FFE1A30024443E /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		0D01C05726FFF3E50024443E /* UserPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostView.swift; sourceTree = "<group>"; };
+		0D01C05926FFF5530024443E /* UserPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostViewModel.swift; sourceTree = "<group>"; };
+		0D01C05B26FFF57C0024443E /* UserPostRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostRemoteRepository.swift; sourceTree = "<group>"; };
+		0D01C05D26FFF5AC0024443E /* UserPostRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostRepositoryProtocol.swift; sourceTree = "<group>"; };
+		0D01C05F26FFF5FE0024443E /* PostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItem.swift; sourceTree = "<group>"; };
 		0DF379BD26FFD02E00FAEC9A /* PruebaCeibaiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaCeibaiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF379C026FFD02E00FAEC9A /* PruebaCeibaiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaCeibaiOSApp.swift; sourceTree = "<group>"; };
-		0DF379C226FFD02E00FAEC9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0DF379C426FFD03000FAEC9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DF379C726FFD03000FAEC9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0DF379C926FFD03000FAEC9A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -65,6 +76,7 @@
 		0DF37A0326FFD1D800FAEC9A /* UserRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRemoteRepository.swift; sourceTree = "<group>"; };
 		0DF37A0626FFD24D00FAEC9A /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		0DF37A0826FFD2D700FAEC9A /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		0DF37A0C26FFD8A800FAEC9A /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D01C05426FFDD7E0024443E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0DF379C626FFD03000FAEC9A /* Preview Content */,
+				0DF379C426FFD03000FAEC9A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		0DF379B426FFD02E00FAEC9A = {
 			isa = PBXGroup;
 			children = (
@@ -115,17 +136,16 @@
 		0DF379BF26FFD02E00FAEC9A /* PruebaCeibaiOS */ = {
 			isa = PBXGroup;
 			children = (
+				0D01C05426FFDD7E0024443E /* Resources */,
+				0DF37A0A26FFD87000FAEC9A /* Util */,
 				0DF37A0526FFD20B00FAEC9A /* App */,
-				0DF379F426FFD0A100FAEC9A /* Constant */,
 				0DF379F326FFD09300FAEC9A /* Repository */,
 				0DF379F226FFD08600FAEC9A /* View */,
 				0DF379F126FFD07F00FAEC9A /* ViewModel */,
 				0DF379F026FFD07400FAEC9A /* Model */,
-				0DF379C426FFD03000FAEC9A /* Assets.xcassets */,
 				0DF379C926FFD03000FAEC9A /* Persistence.swift */,
 				0DF379CE26FFD03000FAEC9A /* Info.plist */,
 				0DF379CB26FFD03000FAEC9A /* PruebaCeibaiOS.xcdatamodeld */,
-				0DF379C626FFD03000FAEC9A /* Preview Content */,
 			);
 			path = PruebaCeibaiOS;
 			sourceTree = "<group>";
@@ -160,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				0DF37A0126FFD1B600FAEC9A /* User.swift */,
+				0D01C05F26FFF5FE0024443E /* PostItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				0DF37A0626FFD24D00FAEC9A /* UserViewModel.swift */,
+				0D01C05926FFF5530024443E /* UserPostViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -175,8 +197,8 @@
 		0DF379F226FFD08600FAEC9A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0DF379C226FFD02E00FAEC9A /* ContentView.swift */,
 				0DF37A0826FFD2D700FAEC9A /* UserView.swift */,
+				0D01C05726FFF3E50024443E /* UserPostView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				0DF379FF26FFD19A00FAEC9A /* UserRepositoryProtocol.swift */,
+				0D01C05D26FFF5AC0024443E /* UserPostRepositoryProtocol.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -228,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				0DF37A0326FFD1D800FAEC9A /* UserRemoteRepository.swift */,
+				0D01C05B26FFF57C0024443E /* UserPostRemoteRepository.swift */,
 			);
 			path = Remote;
 			sourceTree = "<group>";
@@ -238,6 +262,24 @@
 				0DF379C026FFD02E00FAEC9A /* PruebaCeibaiOSApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		0DF37A0A26FFD87000FAEC9A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0DF379F426FFD0A100FAEC9A /* Constant */,
+				0DF37A0B26FFD89100FAEC9A /* CustomView */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0DF37A0B26FFD89100FAEC9A /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				0DF37A0C26FFD8A800FAEC9A /* SearchBarView.swift */,
+				0D01C05526FFE1A30024443E /* Color+Extensions.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,16 +411,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D01C06026FFF5FE0024443E /* PostItem.swift in Sources */,
 				0DF37A0026FFD19A00FAEC9A /* UserRepositoryProtocol.swift in Sources */,
 				0DF379CA26FFD03000FAEC9A /* Persistence.swift in Sources */,
 				0DF379FC26FFD14B00FAEC9A /* NetworkError.swift in Sources */,
 				0DF37A0726FFD24D00FAEC9A /* UserViewModel.swift in Sources */,
+				0D01C05E26FFF5AC0024443E /* UserPostRepositoryProtocol.swift in Sources */,
+				0D01C05A26FFF5530024443E /* UserPostViewModel.swift in Sources */,
 				0DF379CD26FFD03000FAEC9A /* PruebaCeibaiOS.xcdatamodeld in Sources */,
-				0DF379C326FFD02E00FAEC9A /* ContentView.swift in Sources */,
 				0DF37A0226FFD1B600FAEC9A /* User.swift in Sources */,
 				0DF37A0926FFD2D700FAEC9A /* UserView.swift in Sources */,
 				0DF37A0426FFD1D800FAEC9A /* UserRemoteRepository.swift in Sources */,
+				0DF37A0D26FFD8A800FAEC9A /* SearchBarView.swift in Sources */,
+				0D01C05C26FFF57C0024443E /* UserPostRemoteRepository.swift in Sources */,
+				0D01C05826FFF3E50024443E /* UserPostView.swift in Sources */,
 				0DF379C126FFD02E00FAEC9A /* PruebaCeibaiOSApp.swift in Sources */,
+				0D01C05626FFE1A30024443E /* Color+Extensions.swift in Sources */,
 				0DF379F826FFD0E400FAEC9A /* BaseRepositoryRemote.swift in Sources */,
 				0DF379FA26FFD13200FAEC9A /* Constant.swift in Sources */,
 			);
@@ -538,7 +586,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"PruebaCeibaiOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PruebaCeibaiOS/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PruebaCeibaiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -559,7 +607,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"PruebaCeibaiOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PruebaCeibaiOS/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PruebaCeibaiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

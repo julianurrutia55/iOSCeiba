@@ -10,9 +10,8 @@ import Foundation
 class UserViewModel: ObservableObject {
     
     @Published var users:[User] = []
-    @Published var usersFiltered: [User] = []
     private var error: NetworkError?
-    var repository: UserRemoteRepository
+    private var repository: UserRemoteRepository
     
     init(repository: UserRemoteRepository) {
         self.repository = repository
@@ -22,8 +21,9 @@ class UserViewModel: ObservableObject {
         repository.getUserList(completion: { [weak self] result in
             switch result {
             case .success(let users):
-                self?.users = users
-                break
+                DispatchQueue.main.async {
+                    self?.users = users
+                }
             case .failure(let error):
                 print("")
             }

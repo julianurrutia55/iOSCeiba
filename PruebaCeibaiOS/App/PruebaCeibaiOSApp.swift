@@ -13,7 +13,7 @@ struct PruebaCeibaiOSApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UserView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

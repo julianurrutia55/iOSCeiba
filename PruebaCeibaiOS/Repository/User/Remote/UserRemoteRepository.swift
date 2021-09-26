@@ -11,10 +11,16 @@ class UserRemoteRepository: BaseRepositoryRemote, UserRepositoryProtocol {
     
     func getUserList(completion: @escaping (Result<[User], NetworkError>) -> Void) {
         let endPoint = Constant.END_POINT_USER
-        //antes de consumir validar
         if validateEsxistUser() {
             sendRequest(endPoint, of: [User].self) { result in
-                
+                switch result {
+                case .success(let breeds):
+                    completion(.success(breeds))
+                    break
+                case.failure(let error):
+                    completion(.failure(error))
+                    break
+                }
             }
         }
     }
