@@ -9,7 +9,8 @@ import SwiftUI
 
 struct UserView: View {
     
-    @ObservedObject var userViewModel : UserViewModel
+    @Environment(\.managedObjectContext) var context
+    @ObservedObject var userViewModel = UserViewModel(repository: UserRemoteRepository())
     @State private var searchText: String = ""
 
     var body: some View {

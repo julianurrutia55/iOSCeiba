@@ -15,7 +15,7 @@ struct PruebaCeibaiOSApp: App {
     
     var body: some Scene {
         WindowGroup {
-            UserView(userViewModel: UserViewModel(repository: UserRemoteRepository()))
+            UserView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
